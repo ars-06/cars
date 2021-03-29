@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<h1 class="texts">MY CAR GALLERY</h1>
+
+<section id="Gridsec">
+    <h1 class="texts">Grid Gallery</h1>
+
+    <span><img src="fordgt.jpeg" class="gridimage" width="300px" height="200px"></span>
+&nbsp; &nbsp;
+    <span><img src="MC720s.jpg" class="gridimage" width="300px" height="200px"></span>
+&nbsp; &nbsp;
+    <span><img src="ferrarif8.jpeg" class="gridimage" width="300px" height="200px"></span>
+&nbsp; &nbsp;
+    <span><img src="frisf90.jpeg" class="gridimage" width="300px" height="200px"></span>
+&nbsp; &nbsp;
+    <span><img src="bugattichiron.jpeg" class="gridimage" width="300px" height="200px"></span>
+<br>
+<br>
+<div id="myCarousel" class="carousel slide">
+    <div class="carousel-inner">
+        <div class="item active">
+            <center>
+                <img src="fordgt.jpeg" class="img-responsive">
+                <div class="carousel-content">
+                    <p>2019 Ford GT</p>
+                </div>
+            </center>
+        </div>
+
+        <div class="item">
+            <center>
+                <img src="MC720s.jpg" class="img-responsive">
+                <div class="carousel-content">
+                    <p>McLauren 720s</p>
+                </div>
+            </center>
+        </div>
+        
+         <div class="item">
+            <center>
+                <img src="ferrarif8.jpeg" class="img-responsive">
+                <div class="carousel-content">
+                    <p>Ferrari F8 Tributo</p>
+                </div>
+            </center>
+        </div>
+        
+        <div class="item">
+            <center>
+                <img src="frisf90.jpeg" class="img-responsive">
+                <div class="carousel-content">
+                    <p>Ferrari SF90 Stradale</p>
+                </div>
+            </center>
+        </div>
+        
+        <div class="item">
+            <center>
+                <img src="bugattichiron.jpeg" class="img-responsive">
+                <div class="carousel-content">
+                    <p>Bugatti Chiron</p>
+                </div>
+            </center>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
